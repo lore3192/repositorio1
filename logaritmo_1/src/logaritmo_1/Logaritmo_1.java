@@ -23,7 +23,7 @@ n=p.nextInt();
 
  logaritmo=(float) Math.log10(n);
 
-System.out.println("el logaritmo de "+ n + " es igual "+ logaritmo);
+System.out.println("el logaritmo de "+ n + " en base 10 es igual "+ logaritmo);
 
     }
     
