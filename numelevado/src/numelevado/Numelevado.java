@@ -32,7 +32,7 @@ public class Numelevado {
         
         int resultado = (int) Math.pow(base, n);
         
-        System.out.println( base + " elevado a la " + n + " es igual a " + resultado );
+        System.out.println( base + " elevado a la " + n + " es igual " + resultado );
     }
     }
     
