@@ -20,12 +20,14 @@ public class Multiplicacion_division {
      */
     public static void main(String[] args) 
     {
-         
-        double division,d1, respuesta;
+          
+        int n1, n2, multiplicacion;
+        float  respuesta, division;
+        
+       
+        
         
         Scanner p=new Scanner (System.in);
-        
-        int n1, n2, multiplicacion;
         
        
         
@@ -41,22 +43,15 @@ public class Multiplicacion_division {
        System.out.println("la multiplicacion de " + n1 + "*" + n2 + " =" + multiplicacion);
   
        
-       respuesta= (n1/n2);
+       respuesta= (float)  n1/n2;
        
 System.out.println("la division de " + n1 + "/" + n2  + " = " + respuesta);       
-/*
 
-     division= (double)(n1/n2);
-        
-
-
-System.out.println("la division de " + n1 + "/" + n2  + " = " + division);
-
-
-    float resultado_divi= Math.round(division);
+     
+    float resultado_divi= Math.round(respuesta);
     
-    System.out.println(" el resultado redondeado es" + " = " + division);           
-  */
+    System.out.println(" el resultado de la division redondeado es" + " = " + respuesta);           
+  
 
 
         }
